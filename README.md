@@ -22,4 +22,26 @@ Aquí se subirán las tareas de la clase
      return 0;
      }
      
-     .
+   .
+
+      //Ejemplo de tarea #1, Uso de "do while"
+      /Algoritmo de los numeros del 1 al 20
+      //Empezamos seleccionando las librerias 
+      #include <iostream>
+      #include <conio.h>
+
+       //Habilitamos el salto de linea 
+       using namespace std; 
+
+       int main(){
+       //Declaramos la variable 
+       int i;
+       i = 1;
+       do{
+       cout<<i<<endl;
+	  i++;//Aumenta el iterador de uno en uno
+       }while(i<=10);
+
+        return 0;
+        }
+.
