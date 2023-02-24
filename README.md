@@ -45,3 +45,29 @@ Aquí se subirán las tareas de la clase
         return 0;
         }
 .
+
+       //Ejemplo de tarea #1, Uso de "while"
+       //Algoritmo que muestra los numeros del 1 al 10 
+       //Empezamos seleccionando las librerias 
+       #include <iostream>
+       #include <conio.h>
+
+       //Habilitamos el salto de linea 
+       using namespace std; 
+
+        int main(){
+
+        //Declaramos la variable i 
+        int i;
+
+         i=1;
+	
+         while(i<=10){
+	 cout<<i<<endl;
+	
+         i ++;	
+         }
+
+         return 0;
+         }
+.
