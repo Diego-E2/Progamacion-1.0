@@ -71,3 +71,29 @@ Aquí se subirán las tareas de la clase
          return 0;
          }
 .
+
+         ////Ejemplo de tarea #1, Uso de "Vector"
+         /* Escribir un progrma en donde se defina un vector y que calcule la suma de sus elementos 
+         */
+
+         //Empezamos seleccionando las librerias 
+          #include <iostream>
+         #include <conio.h>
+
+         //Habilitamos el salto de linea 
+         using namespace std; 
+
+         int main(){
+         int numeros[] = {1,2,3,4,5};
+         int suma = 0;
+
+         for(int i=0;i<5;i++){
+	 suma += numeros[i];
+         }
+     
+         cout<<"La suma de los numeros del vector es:"<<suma<<endl;
+
+
+          return 0;
+          }
+.
