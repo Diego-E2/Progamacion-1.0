@@ -155,3 +155,49 @@ Aquí se subirán las tareas de la clase
 	       }
               }
 .
+
+             /*Serie II
+            Utilizando su ide favorito desarrolle un  programa en c++ que le pida al usuario nueve numeros enteros y los almacene
+             en una matriz 3x3, asi mismo que calcule  la suma de los numeros de cada fila y mostrar el numero de fila con mayor suma 
+              */
+ 
+           #include <iostream>
+
+          using namespace std;
+
+          int main(){
+	
+	  int f,c;
+	
+	   f=3;
+	  c=3;
+	
+	   /*Se declararo la matriz*/
+	  int A[f][c];
+	
+
+	   //Esto nos sirve para llenar los valores de la matriz A
+	   cout<<"Por favor, ingrese los valores de la matriz A: "<<endl;
+	   for(int i=0; i<f; i++){
+		
+		for(int j=0; j<c; j++){
+			cout<<"["<< i <<"]["<< j <<"]  =  ";
+			cin>>A[i][j];
+		}	
+		cout<<"\n";
+          	}
+		
+		
+	    cout<<"La suma de las filas de la matriz es "<<endl;
+		for(int i=0; i<f; i++){
+		
+		for(int j=0; j<c; j++){
+			cout<<A[i][j];
+		
+		}
+		cout<<endl;
+	     }
+	
+	     return 0;
+             }
+	
